@@ -2,7 +2,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-CONFIG += c++17
+CONFIG += c++11
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -29,7 +29,7 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-INCLUDEPATH += C:\cpp_libs\SFML-2.5.1\include
-LIBS += -LC:\cpp_libs\SFML-2.5.1\lib -lsfml-audio -lsfml-graphics -lsfml-network -lsfml-window -lsfml-system
+INCLUDEPATH += C:\GCC2\SFML-2.2\include
+LIBS += -LC:\GCC2\SFML-2.2\lib -lsfml-audio -lsfml-graphics -lsfml-network -lsfml-window -lsfml-system
 
 RESOURCES +=

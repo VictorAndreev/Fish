@@ -59,7 +59,7 @@ void GameWidget::OnInit()
 
     if (font.loadFromFile("resources/arial.ttf")) {
         gameOverText = sf::Text("GAME OVER", font, 48);
-        gameOverText.setFillColor(sf::Color::White);
+        gameOverText.setColor(sf::Color::White);
 
         gameOverText.setPosition(this->getSize().x / 2 - gameOverText.getLocalBounds().width / 2,
                                  this->getSize().y / 2 - gameOverText.getLocalBounds().height / 2);
